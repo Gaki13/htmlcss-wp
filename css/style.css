@@ -41,10 +41,15 @@ a{
 
 /* main */
 .container.article{
-    background-color: #e1d67a;
-    min-height: 500px;
     margin-top: 20px;
+   
 }
+
+.hero{
+    background-image: url("/img/banner.jpg");
+}
+
+
 .container.col{
     background-color: #0186fc;
     min-height: 600px;
