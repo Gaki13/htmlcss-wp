@@ -91,6 +91,7 @@ h1{
 
 h3{
     color: black;
+    margin-bottom: 10px;
 }
 
 .col-right{
@@ -102,7 +103,6 @@ h3{
 }
 
 .col-center{
-    background-color: #abcfe7;
     width: calc(60% - 40px);
     height: auto;
     float: left;
