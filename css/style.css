@@ -15,7 +15,7 @@
 
 .container{
     margin: auto;
-    max-width: 1920px;
+    max-width: 1700px;
 }
 
 body{
@@ -46,7 +46,13 @@ a{
 }
 
 .hero{
-    background-image: url("/img/banner.jpg");
+    padding: 500px 600px 70px 50px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
 }
 
 
