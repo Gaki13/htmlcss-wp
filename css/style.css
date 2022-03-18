@@ -68,7 +68,7 @@ h2{
 
 
 .container.col{
-    min-height: 600px;
+    height: auto;
     margin-top: 20px;
 }
 
@@ -83,27 +83,39 @@ h1{
     font-size: 35px;
 }
 
+.section-img{
+    width: 100%;
+    border-radius: 10px;
+    height: 340px;
+}
+
+h3{
+    color: black;
+}
+
 .col-right{
-    background-color: #abcfe7;
     width: 20%;
-    height: 460px;
+    height: auto;
     float: left;
     margin-right: 20px;
+    color: #8A8A8A;
 }
 
 .col-center{
     background-color: #abcfe7;
     width: calc(60% - 40px);
-    height: 460px;
+    height: auto;
     float: left;
     margin-right: 20px;
+    color: #8A8A8A;
 }
 
 .col-left{
     background-color: #abcfe7;
     width: 20%;
-    height: 460px;
+    height: auto;
     float: left;
+    color: #8A8A8A;
 }
 
 /* footer*/
